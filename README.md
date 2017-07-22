@@ -1,4 +1,4 @@
-# PZSwipedCollectionViewCell
+# PZSwipedCollectionViewCell([中文说明](https://github.com/EvoIos/PZSwipedCollectionViewCell/blob/master/READMEByChinese.md))
 
 ![](https://raw.githubusercontent.com/EvoIos/PZSwipedCollectionViewCell/master/swipelefttodelete.gif)
 
