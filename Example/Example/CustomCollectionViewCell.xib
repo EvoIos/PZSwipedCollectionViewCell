@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CustomCollectionViewCell" customModule="Example" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVg-et-iGd">
+                        <rect key="frame" x="20" y="15" width="77" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02u-cP-cOE">
+                        <rect key="frame" x="264.5" y="15" width="40.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="bVg-et-iGd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="ER0-OT-PpS"/>
+                <constraint firstAttribute="bottom" secondItem="02u-cP-cOE" secondAttribute="bottom" constant="14" id="bOH-1d-U7c"/>
+                <constraint firstAttribute="bottom" secondItem="bVg-et-iGd" secondAttribute="bottom" constant="14" id="dN0-9I-Ekx"/>
+                <constraint firstAttribute="trailing" secondItem="02u-cP-cOE" secondAttribute="trailing" constant="15" id="fJ7-XW-4ga"/>
+                <constraint firstItem="02u-cP-cOE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="wgS-qI-rxU"/>
+                <constraint firstItem="bVg-et-iGd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="yvm-Kj-Mbh"/>
+            </constraints>
+            <connections>
+                <outlet property="emailLabel" destination="02u-cP-cOE" id="svN-LR-RRx"/>
+                <outlet property="nameLabel" destination="bVg-et-iGd" id="Lbz-e5-LY8"/>
+            </connections>
+            <point key="canvasLocation" x="-350" y="-12"/>
+        </collectionViewCell>
+    </objects>
+</document>
