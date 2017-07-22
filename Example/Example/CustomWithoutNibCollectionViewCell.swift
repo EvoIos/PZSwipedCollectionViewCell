@@ -33,7 +33,9 @@ class CustomWithoutNibCollectionViewCell: PZSwipedCollectionViewCell {
         self.addSubview(nameLabel!)
         
         // set revealview
-        let deleteButton = UIButton(frame: CGRect(x: self.bounds.height - 55, y: 0, width: 55, height: self.bounds.height))
+        let deleteButton =  UIButton(frame: CGRect(origin: CGPoint.zero,
+                                                   size: CGSize(width: 55,
+                                                                height: self.bounds.height)))
         deleteButton.backgroundColor = UIColor.init(red: 255/255.0, green: 58/255.0, blue: 58/255.0, alpha: 1)
         deleteButton.setTitle("delete", for: .normal)
         deleteButton.setTitleColor(UIColor.white, for: .normal)
