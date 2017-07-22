@@ -2,6 +2,10 @@
 
 ![](https://raw.githubusercontent.com/EvoIos/PZSwipedCollectionViewCell/master/swipelefttodelete.gif)
 
+## Required
+
+the UICollectionView's width is equal to UIScreen.main.bounds.width.
+
 ## Feature
 
 - UICollectionViewCell swipe left to show view. By default, swipe left to delete.
